@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    tbody {
+        tr {
+            td {
+                border-bottom: 2px solid #f1f3f5aa;
+                &:hover {
+                    background-color: #f1f3f5;
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    th {
+        background: #e1e4e7;
+        color: #78909c;
+        text-transform: uppercase;
+    }
+}

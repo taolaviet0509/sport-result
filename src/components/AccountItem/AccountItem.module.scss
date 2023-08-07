@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 6px;
+    padding: 9px 16px;
+    flex: 1;
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}

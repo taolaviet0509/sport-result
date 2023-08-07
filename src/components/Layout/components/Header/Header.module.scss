@@ -1,0 +1,131 @@
+.wrapper {
+    --search-body-radius: 92px;
+    --search-height: 48px;
+    --search-top-spacer: 9px;
+    --caret-input: red;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    width: var(--default-layout-width);
+    background-color: var(---white);
+    align-items: center;
+
+    .logo {
+        font-family: cursive;
+        font-size: 30px;
+        color: var(--black);
+    }
+    .search {
+        position: relative;
+        display: flex;
+        background: rgba(22, 24, 35, 0.06);
+        height: 46px;
+        border-radius: var(--search-body-radius);
+        padding-left: 16px;
+
+        input {
+            flex: 1;
+            margin: 10px;
+            padding: 12px 0;
+            font-size: 1.6rem;
+            font-weight: 400;
+            color: var(--black);
+            border: none;
+            background-color: transparent;
+            caret-color: var(--caret-input);
+        }
+        input:not(:placeholder-shown) ~ .search-btn {
+            color: var(--caret-input);
+        }
+        .search-btn {
+            width: 52px;
+            border-top-right-radius: var(--search-body-radius);
+            border-bottom-right-radius: var(--search-body-radius);
+            font-size: 1.8rem;
+
+            &:hover {
+                background-color: rgba(22, 24, 35, 0.03);
+                cursor: pointer;
+            }
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: var(--search-top-spacer);
+            width: 1px;
+            right: 50px;
+            height: calc(var(--search-height) - var(--search-top-spacer) * 2);
+            background-color: rgba(22, 24, 35, 0.12);
+        }
+    }
+    .action {
+        display: flex;
+        padding: 15px;
+        margin-right: -17px;
+
+        .show-register,
+        .show-login {
+            background-color: rgba(254, 44, 85, 1);
+            padding: 12px;
+            width: 50%;
+            border-radius: 3px;
+            box-shadow: 45px;
+            margin: 2px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 1);
+            &:hover {
+                background-color: #01579b;
+
+                color: var(---white);
+            }
+        }
+    }
+    .search,
+    .search-content {
+        width: 300px;
+        .search-title {
+            font-size: 1.6rem;
+            color: rgba(22, 24, 35, 0.2);
+            font-weight: 800;
+        }
+    }
+}
+.inner {
+    min-height: 50px;
+    width: var(--default-layout-width);
+    background-color: #b71c1c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: var(---white);
+    }
+
+    .sport-icon {
+        margin-right: 7px;
+    }
+
+    :hover {
+        border-bottom: 3px solid #ffb300;
+    }
+}
+
+.test {
+    background-color: #0bcc01;
+    width: 100%;
+}
+.active {
+    width: 500px;
+    min-height: 700px;
+    position: absolute;
+    background: red;
+}

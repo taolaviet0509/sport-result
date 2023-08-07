@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+    tbody {
+        tr {
+            td {
+                border-bottom: 2px solid #f1f3f5aa;
+                font-family: 'Open sans', Arial, Helvetica, sans-serif;
+                font-size: 1.2rem;
+                font-weight: 400;
+                line-height: 31px;
+                color: rgb(183, 28, 28);
+                text-decoration-style: solid;
+
+                &:hover {
+                    background-color: #f1f3f5;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    th {
+        display: flex;
+        justify-content: flex-start;
+        background: #e1e4e7;
+        color: rgb(120, 144, 156);
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-family: 'Open sans', Arial, Helvetica, sans-serif;
+    }
+}

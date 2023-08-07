@@ -1,0 +1,27 @@
+.wrapper {
+    width: 100%;
+
+    h3 {
+        color: var(---white);
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    a {
+        margin-bottom: 12px;
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(200, 200, 200);
+        text-align: left;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif,
+            'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    }
+}
+
+.st-footer {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px;
+}

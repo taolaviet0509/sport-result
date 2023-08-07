@@ -1,0 +1,108 @@
+.wrapper {
+    background-color: #e3e9ec;
+    table {
+        background-color: var(---white);
+    }
+}
+.header-wrap-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(---white);
+
+    h2 {
+        font-family: 'Open sans', Arial, Helvetica, sans-serif;
+        color: #b71c1c;
+    }
+    span {
+        cursor: pointer;
+        color: #b71c1c;
+        font-size: 1.4rem;
+        margin-right: -30px;
+    }
+    th {
+        color: rgb(183, 28, 28);
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-family: 'Open sans', Arial, Helvetica, sans-serif;
+    }
+}
+
+.more-btn {
+    border-radius: 50%;
+    border: 1px solid var(---grey);
+    background-color: var(---grey);
+    color: var(---white);
+    width: 3%;
+}
+
+.match-item {
+    display: flex;
+    justify-content: space-between;
+}
+table {
+    tbody {
+        th {
+        }
+    }
+}
+.up-coming {
+    margin-top: 15px;
+}
+.get-api {
+    display: flex;
+    justify-content: space-between;
+}
+.match-game {
+}
+.homepage-football,
+.homepage-basketball,
+.homepage-volleyball,
+.homepage-tennis {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    list-style-type: none;
+    border-bottom: 1px solid rgb(219, 227, 230);
+    li {
+        border-bottom: 1px solid rgb(219, 227, 230);
+        a {
+            color: var(--black);
+            font-family: 'Open sans', Arial, Helvetica, sans-serif;
+        }
+    }
+}
+article {
+    background-color: var(---white);
+    h3 {
+        padding: 8px 15px;
+        line-height: 2rem;
+        color: #fff;
+        background: #b71c1c;
+        font-family: 'Open sans', Arial, Helvetica, sans-serif;
+    }
+    img {
+        width: 6%;
+        margin: 5px 5px 0 10px;
+    }
+}
+.right-football-tbl {
+    border-left: solid rgb(219, 227, 230);
+}
+.left-football-tbl {
+    border-right: solid rgb(219, 227, 230);
+}
+.sub-article,
+.tennis-article {
+    margin-top: 15px;
+}
+.tennis-article {
+    ul {
+        width: 50%;
+    }
+}
+.icon-tennis {
+    color: cornflowerblue;
+    margin: 0 5px;
+}

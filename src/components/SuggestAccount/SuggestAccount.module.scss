@@ -1,0 +1,38 @@
+.wrapper {
+    margin-top: 15px;
+    background-color: var(---white);
+}
+.table-main {
+    height: 1.9375rem;
+    padding: 0.4375rem 0.625rem;
+    vertical-align: middle;
+}
+.label {
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    background-color: #01579b;
+    color: var(---white);
+}
+.date-time,
+.round {
+    font-size: 1.3rem;
+    background: #e1e4e7;
+    color: #78909c;
+}
+.th-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+.more-btn {
+    color: #01579b;
+    text-align: center;
+    &:hover {
+        color: var(---white);
+        cursor: pointer;
+        background-color: #01579b;
+    }
+}
+a {
+    color: #01579b;
+}
